@@ -116,6 +116,13 @@ const wordsDictionary = {
     "blz": "beleza",
     "sdds": "saudades",
     "gosto": "goso",
+    "devagar": "de vaga",
+    "recentemente": "recente mente",
+    "girassol": "gira sol",
+    "paraquedas": "para quedas",
+    "pontape": "ponta pé",
+    "combinacao": "combinassao",
+    "coracao": "corasao"
 }
 
 var inputText = document.getElementById('oficial');
