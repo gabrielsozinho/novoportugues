@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor | Portugues 2.0</title>
+    <link rel="shortcut icon" href="/src/img/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Tradutor Português / Portugues 2.0</h1>
+    <div class="inputs">
+        <div class="textarea textareaoficial">
+            <h2>Português Oficial</h2>
+            <textarea name="oficial" id="oficial" spellcheck="false"></textarea>
+            <div class="infos">
+                <p><span id="caracteres">0</span> caracteres</p>
+            </div>
+        </div>
+        <div class="textarea textareaportugues">
+            <h2>Portugues 2.0</h2>
+            <textarea name="portugues" id="portugues" readonly value=" "> </textarea>
+            <div class="infos">
+                <p><span id="caracteres2">0</span> caracteres</p>
+                <img src="/src/img/copy.png" alt="copy button" class="copy-button" id="copy-button">
+            </div>
+        </div>
+    </div>
+    <p class="voltar"><a href="./../">← Voltar</a></p>
+</body>
+<script src="./app.js"></script>
+
+</html>
