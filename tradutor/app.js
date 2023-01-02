@@ -118,7 +118,8 @@ const wordsDictionary = {
     "paraquedas": "para quedas",
     "pontape": "ponta pé",
     "combinacao": "combinassao",
-    "coracao": "corasao"
+    "coracao": "corasao",
+    "verdade": "verdsde"
 }
 
 var inputText = document.getElementById('oficial');
